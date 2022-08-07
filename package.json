@@ -1,0 +1,33 @@
+{
+  "name": "ecommerce-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend2",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "importdata": "node backend/seeder",
+    "deletedata": "node backend/seeder -d"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "concurrently": "^7.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "express-fileupload": "^1.4.0",
+    "express-fileuploader": "^0.0.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.19",
+    "react-icons": "^4.4.0"
+  }
+}
