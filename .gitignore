@@ -1,4 +1,0 @@
-PORT=5000
-MONGO_URL=mongodb+srv://quandoan190896:quandoan190896@quandoan.5rynyv5.mongodb.net/ecommerce-app
-private_key=hello
-paypal_client_id=
